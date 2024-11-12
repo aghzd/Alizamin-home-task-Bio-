@@ -60,6 +60,8 @@ namespace HR__Management_App_Mini_Project
         //employees listi elave ele videoya bax 
         //list qalib 
 
+        public List<string> Employee;
+
         
         public void CalcSalaryAverage()
         {
