@@ -9,9 +9,9 @@ namespace HR__Management_App_Mini_Project
     internal interface IHumanResourceManager
     {
         List <Department> Departments { get; set; }
-        void AddDepartment(string Name, int WorkerLimit, int SalaryLimit);
-        void GetDepartment();
-        void EditDepartment();
+        void AddDepartment(string name, int workerLimit, int salaryLimit);
+        List<Department> GetDepartment();
+        void EditDepartment(string name, string newName);
         void AddEmployee();
         void RemoveEmployee();
         void EditEmployee();
